@@ -1,0 +1,248 @@
+2022-07-30 10:34:07.687  INFO 41094 --- [restartedMain] com.idb.messagemq.MessagemqApplication   : Starting MessagemqApplication using Java 18.0.1 on Dinh-Phus-MacBook-Pro-16.local with PID 41094 (/Users/dinhphu/tmp/thtruemilk/spring-src/messagemq/target/classes started by dinhphu in /Users/dinhphu/tmp/thtruemilk/spring-src/messagemq)
+2022-07-30 10:34:07.693  INFO 41094 --- [restartedMain] com.idb.messagemq.MessagemqApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-07-30 10:34:07.748  INFO 41094 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-30 10:34:07.749  INFO 41094 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-30 10:34:08.911  INFO 41094 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-30 10:34:08.924  INFO 41094 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-30 10:34:08.924  INFO 41094 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-07-30 10:34:08.989  INFO 41094 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-30 10:34:08.989  INFO 41094 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1240 ms
+2022-07-30 10:34:10.073  INFO 41094 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-30 10:34:10.108  INFO 41094 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-30 10:34:10.126  INFO 41094 --- [restartedMain] com.idb.messagemq.MessagemqApplication   : Started MessagemqApplication in 7.873 seconds (JVM running for 8.324)
+2022-07-30 10:34:56.935  INFO 41094 --- [restartedMain] com.idb.messagemq.MessagemqApplication   : Starting MessagemqApplication using Java 18.0.1 on Dinh-Phus-MacBook-Pro-16.local with PID 41094 (/Users/dinhphu/tmp/thtruemilk/spring-src/messagemq/target/classes started by dinhphu in /Users/dinhphu/tmp/thtruemilk/spring-src/messagemq)
+2022-07-30 10:34:56.936  INFO 41094 --- [restartedMain] com.idb.messagemq.MessagemqApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-07-30 10:34:57.148  INFO 41094 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-30 10:34:57.149  INFO 41094 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-30 10:34:57.149  INFO 41094 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-07-30 10:34:57.158  INFO 41094 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-30 10:34:57.158  INFO 41094 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 219 ms
+2022-07-30 10:34:57.371  INFO 41094 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-30 10:34:57.378  INFO 41094 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-30 10:34:57.384  INFO 41094 --- [restartedMain] com.idb.messagemq.MessagemqApplication   : Started MessagemqApplication in 5.472 seconds (JVM running for 55.583)
+2022-07-30 10:34:57.386  INFO 41094 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-07-30 10:35:00.005  INFO 41094 --- [scheduling-1] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [103.146.21.146:5672]
+2022-07-30 10:35:00.085  INFO 41094 --- [scheduling-1] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#37904d87:0/SimpleConnection@7b149113 [delegate=amqp://admin@103.146.21.146:5672/, localPort= 60145]
+2022-07-30 10:35:00.090  INFO 41094 --- [scheduling-1] o.s.amqp.rabbit.core.RabbitAdmin         : Auto-declaring a non-durable, auto-delete, or exclusive Queue (idb.myqueue) durable:false, auto-delete:false, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2022-07-30 10:35:00.143  INFO 41094 --- [scheduling-1] c.i.m.Utils.ZaloNotificationSender       : Send zalo message fails: 0
+2022-07-30 10:35:00.144  INFO 41094 --- [scheduling-1] aloSendNotificationFromRabbitMQScheduler : Send zalo messages success: 0
+2022-07-30 10:35:04.613  INFO 41094 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-30 10:35:04.613  INFO 41094 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-30 10:35:04.614  INFO 41094 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-07-30 10:35:05.462  INFO 41094 --- [http-nio-8080-exec-3] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 208 ms
+2022-07-30 10:36:00.011  INFO 41094 --- [scheduling-1] c.i.m.Utils.ZaloNotificationSender       : Send zalo message fails: 0
+2022-07-30 10:36:00.012  INFO 41094 --- [scheduling-1] aloSendNotificationFromRabbitMQScheduler : Send zalo messages success: 0
+2022-07-30 10:37:00.696  INFO 41094 --- [scheduling-1] c.i.m.Utils.ZaloNotificationSender       : Send zalo message fails: 0
+2022-07-30 10:37:00.697  INFO 41094 --- [scheduling-1] aloSendNotificationFromRabbitMQScheduler : Send zalo messages success: 10
+2022-07-30 10:38:00.009  INFO 41094 --- [scheduling-1] c.i.m.Utils.ZaloNotificationSender       : Send zalo message fails: 0
+2022-07-30 10:38:00.009  INFO 41094 --- [scheduling-1] aloSendNotificationFromRabbitMQScheduler : Send zalo messages success: 0
+2022-07-30 10:38:31.712  INFO 41094 --- [restartedMain] com.idb.messagemq.MessagemqApplication   : Starting MessagemqApplication using Java 18.0.1 on Dinh-Phus-MacBook-Pro-16.local with PID 41094 (/Users/dinhphu/tmp/thtruemilk/spring-src/messagemq/target/classes started by dinhphu in /Users/dinhphu/tmp/thtruemilk/spring-src/messagemq)
+2022-07-30 10:38:31.713  INFO 41094 --- [restartedMain] com.idb.messagemq.MessagemqApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-07-30 10:38:31.896  INFO 41094 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-30 10:38:31.897  INFO 41094 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-30 10:38:31.897  INFO 41094 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-07-30 10:38:31.905  INFO 41094 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-30 10:38:31.905  INFO 41094 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 191 ms
+2022-07-30 10:38:32.113  INFO 41094 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-30 10:38:32.121  INFO 41094 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-30 10:38:32.127  INFO 41094 --- [restartedMain] com.idb.messagemq.MessagemqApplication   : Started MessagemqApplication in 5.436 seconds (JVM running for 270.328)
+2022-07-30 10:38:32.129  INFO 41094 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-07-30 10:38:58.777  INFO 41094 --- [restartedMain] com.idb.messagemq.MessagemqApplication   : Starting MessagemqApplication using Java 18.0.1 on Dinh-Phus-MacBook-Pro-16.local with PID 41094 (/Users/dinhphu/tmp/thtruemilk/spring-src/messagemq/target/classes started by dinhphu in /Users/dinhphu/tmp/thtruemilk/spring-src/messagemq)
+2022-07-30 10:38:58.778  INFO 41094 --- [restartedMain] com.idb.messagemq.MessagemqApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-07-30 10:38:58.972  INFO 41094 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-30 10:38:58.973  INFO 41094 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-30 10:38:58.973  INFO 41094 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-07-30 10:38:58.983  INFO 41094 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-30 10:38:58.983  INFO 41094 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 204 ms
+2022-07-30 10:38:59.252  INFO 41094 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-30 10:38:59.258  INFO 41094 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-30 10:38:59.266  INFO 41094 --- [restartedMain] com.idb.messagemq.MessagemqApplication   : Started MessagemqApplication in 5.512 seconds (JVM running for 297.466)
+2022-07-30 10:38:59.268  INFO 41094 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-07-30 10:39:00.005  INFO 41094 --- [scheduling-1] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [103.146.21.146:5672]
+2022-07-30 10:39:00.042  INFO 41094 --- [scheduling-1] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#6297a3ac:0/SimpleConnection@44d84ed1 [delegate=amqp://admin@103.146.21.146:5672/, localPort= 60166]
+2022-07-30 10:39:00.042  INFO 41094 --- [scheduling-1] o.s.amqp.rabbit.core.RabbitAdmin         : Auto-declaring a non-durable, auto-delete, or exclusive Queue (idb.myqueue) durable:false, auto-delete:false, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2022-07-30 10:39:00.077  INFO 41094 --- [scheduling-1] c.i.m.Utils.ZaloNotificationSender       : Send zalo message fails: 0
+2022-07-30 10:39:00.077  INFO 41094 --- [scheduling-1] aloSendNotificationFromRabbitMQScheduler : Send zalo messages success: 0
+2022-07-30 10:39:07.958  INFO 41094 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-30 10:39:07.958  INFO 41094 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-30 10:39:07.959  INFO 41094 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2022-07-30 10:40:21.577  INFO 41094 --- [scheduling-1] c.i.m.Utils.ZaloNotificationSender       : Send zalo message fails: 0
+2022-07-30 10:40:21.578  INFO 41094 --- [scheduling-1] aloSendNotificationFromRabbitMQScheduler : Send zalo messages success: 8
+2022-07-30 10:41:00.010  INFO 41094 --- [scheduling-1] c.i.m.Utils.ZaloNotificationSender       : Send zalo message fails: 0
+2022-07-30 10:41:00.011  INFO 41094 --- [scheduling-1] aloSendNotificationFromRabbitMQScheduler : Send zalo messages success: 0
+2022-07-30 10:42:00.012  INFO 41094 --- [scheduling-1] c.i.m.Utils.ZaloNotificationSender       : Send zalo message fails: 0
+2022-07-30 10:42:00.012  INFO 41094 --- [scheduling-1] aloSendNotificationFromRabbitMQScheduler : Send zalo messages success: 0
+2022-07-30 10:43:00.010  INFO 41094 --- [scheduling-1] c.i.m.Utils.ZaloNotificationSender       : Send zalo message fails: 0
+2022-07-30 10:43:00.010  INFO 41094 --- [scheduling-1] aloSendNotificationFromRabbitMQScheduler : Send zalo messages success: 0
+2022-07-30 10:44:00.022  INFO 41094 --- [scheduling-1] c.i.m.Utils.ZaloNotificationSender       : Send zalo message fails: 0
+2022-07-30 10:44:00.023  INFO 41094 --- [scheduling-1] aloSendNotificationFromRabbitMQScheduler : Send zalo messages success: 0
+2022-07-30 10:45:00.009  INFO 41094 --- [scheduling-1] c.i.m.Utils.ZaloNotificationSender       : Send zalo message fails: 0
+2022-07-30 10:45:00.010  INFO 41094 --- [scheduling-1] aloSendNotificationFromRabbitMQScheduler : Send zalo messages success: 0
+2022-07-30 10:46:00.010  INFO 41094 --- [scheduling-1] c.i.m.Utils.ZaloNotificationSender       : Send zalo message fails: 0
+2022-07-30 10:46:00.011  INFO 41094 --- [scheduling-1] aloSendNotificationFromRabbitMQScheduler : Send zalo messages success: 0
+2022-07-30 10:47:00.006  INFO 41094 --- [scheduling-1] c.i.m.Utils.ZaloNotificationSender       : Send zalo message fails: 0
+2022-07-30 10:47:00.007  INFO 41094 --- [scheduling-1] aloSendNotificationFromRabbitMQScheduler : Send zalo messages success: 0
+2022-07-30 10:48:00.017  INFO 41094 --- [scheduling-1] c.i.m.Utils.ZaloNotificationSender       : Send zalo message fails: 0
+2022-07-30 10:48:00.018  INFO 41094 --- [scheduling-1] aloSendNotificationFromRabbitMQScheduler : Send zalo messages success: 0
+2022-07-30 10:49:00.010  INFO 41094 --- [scheduling-1] c.i.m.Utils.ZaloNotificationSender       : Send zalo message fails: 0
+2022-07-30 10:49:00.010  INFO 41094 --- [scheduling-1] aloSendNotificationFromRabbitMQScheduler : Send zalo messages success: 0
+2022-07-30 10:50:00.008  INFO 41094 --- [scheduling-1] c.i.m.Utils.ZaloNotificationSender       : Send zalo message fails: 0
+2022-07-30 10:50:00.017  INFO 41094 --- [scheduling-1] aloSendNotificationFromRabbitMQScheduler : Send zalo messages success: 0
+2022-07-30 10:50:17.663  INFO 41094 --- [restartedMain] com.idb.messagemq.MessagemqApplication   : Starting MessagemqApplication using Java 18.0.1 on Dinh-Phus-MacBook-Pro-16.local with PID 41094 (/Users/dinhphu/tmp/thtruemilk/spring-src/messagemq/target/classes started by dinhphu in /Users/dinhphu/tmp/thtruemilk/spring-src/messagemq)
+2022-07-30 10:50:17.664  INFO 41094 --- [restartedMain] com.idb.messagemq.MessagemqApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-07-30 10:50:17.860  INFO 41094 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-30 10:50:17.861  INFO 41094 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-30 10:50:17.861  INFO 41094 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-07-30 10:50:17.869  INFO 41094 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-30 10:50:17.869  INFO 41094 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 202 ms
+2022-07-30 10:50:18.090  INFO 41094 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-30 10:50:18.097  INFO 41094 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-30 10:50:18.103  INFO 41094 --- [restartedMain] com.idb.messagemq.MessagemqApplication   : Started MessagemqApplication in 5.473 seconds (JVM running for 976.308)
+2022-07-30 10:50:18.104  INFO 41094 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-07-30 10:50:22.098  INFO 41094 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-30 10:50:22.099  INFO 41094 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-30 10:50:22.099  INFO 41094 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2022-07-30 10:50:22.102  INFO 41094 --- [http-nio-8080-exec-1] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [103.146.21.146:5672]
+2022-07-30 10:50:22.130  INFO 41094 --- [http-nio-8080-exec-1] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#2b2b8abc:0/SimpleConnection@7b76003a [delegate=amqp://admin@103.146.21.146:5672/, localPort= 60225]
+2022-07-30 10:50:22.131  INFO 41094 --- [http-nio-8080-exec-1] o.s.amqp.rabbit.core.RabbitAdmin         : Auto-declaring a non-durable, auto-delete, or exclusive Queue (idb.myqueue) durable:false, auto-delete:false, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2022-07-30 10:51:00.295  INFO 41094 --- [scheduling-1] c.i.m.Utils.ZaloNotificationSender       : Send zalo message fails: 0
+2022-07-30 10:51:00.296  INFO 41094 --- [scheduling-1] aloSendNotificationFromRabbitMQScheduler : Send zalo messages success: 5
+2022-07-30 10:55:23.197  INFO 41801 --- [restartedMain] com.idb.messagemq.MessagemqApplication   : Starting MessagemqApplication using Java 18.0.1 on Dinh-Phus-MacBook-Pro-16.local with PID 41801 (/Users/dinhphu/tmp/thtruemilk/spring-src/messagemq/target/classes started by dinhphu in /Users/dinhphu/tmp/thtruemilk/spring-src/messagemq)
+2022-07-30 10:55:23.199  INFO 41801 --- [restartedMain] com.idb.messagemq.MessagemqApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-07-30 10:55:23.257  INFO 41801 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-30 10:55:23.258  INFO 41801 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-30 10:55:24.409  INFO 41801 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-30 10:55:24.423  INFO 41801 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-30 10:55:24.424  INFO 41801 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-07-30 10:55:24.488  INFO 41801 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-30 10:55:24.489  INFO 41801 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1231 ms
+2022-07-30 10:55:25.556  INFO 41801 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-30 10:55:25.592  INFO 41801 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-30 10:55:25.611  INFO 41801 --- [restartedMain] com.idb.messagemq.MessagemqApplication   : Started MessagemqApplication in 7.857 seconds (JVM running for 8.292)
+2022-07-30 10:56:00.002  INFO 41801 --- [scheduling-1] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [103.146.21.146:5672]
+2022-07-30 10:56:00.077  INFO 41801 --- [scheduling-1] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#2156a1ac:0/SimpleConnection@250159e5 [delegate=amqp://admin@103.146.21.146:5672/, localPort= 60260]
+2022-07-30 10:56:00.082  INFO 41801 --- [scheduling-1] o.s.amqp.rabbit.core.RabbitAdmin         : Auto-declaring a non-durable, auto-delete, or exclusive Queue (idb.myqueue) durable:false, auto-delete:false, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2022-07-30 10:56:00.139  INFO 41801 --- [scheduling-1] c.i.m.Utils.ZaloNotificationSender       : Send zalo message fails: 0
+2022-07-30 10:56:00.140  INFO 41801 --- [scheduling-1] aloSendNotificationFromRabbitMQScheduler : Send zalo messages success: 0
+2022-07-30 10:56:00.140  INFO 41801 --- [scheduling-1] aloSendNotificationFromRabbitMQScheduler : Cron expression: 0 0/1 * * * ?
+2022-07-30 10:57:00.010  INFO 41801 --- [scheduling-1] c.i.m.Utils.ZaloNotificationSender       : Send zalo message fails: 0
+2022-07-30 10:57:00.010  INFO 41801 --- [scheduling-1] aloSendNotificationFromRabbitMQScheduler : Send zalo messages success: 0
+2022-07-30 10:57:00.010  INFO 41801 --- [scheduling-1] aloSendNotificationFromRabbitMQScheduler : Cron expression: 0 0/1 * * * ?
+2022-07-30 10:57:33.096  INFO 41801 --- [restartedMain] com.idb.messagemq.MessagemqApplication   : Starting MessagemqApplication using Java 18.0.1 on Dinh-Phus-MacBook-Pro-16.local with PID 41801 (/Users/dinhphu/tmp/thtruemilk/spring-src/messagemq/target/classes started by dinhphu in /Users/dinhphu/tmp/thtruemilk/spring-src/messagemq)
+2022-07-30 10:57:33.096  INFO 41801 --- [restartedMain] com.idb.messagemq.MessagemqApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-07-30 10:57:33.290  INFO 41801 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-30 10:57:33.291  INFO 41801 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-30 10:57:33.291  INFO 41801 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-07-30 10:57:33.300  INFO 41801 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-30 10:57:33.300  INFO 41801 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 201 ms
+2022-07-30 10:57:33.513  INFO 41801 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-30 10:57:33.520  INFO 41801 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-30 10:57:33.526  INFO 41801 --- [restartedMain] com.idb.messagemq.MessagemqApplication   : Started MessagemqApplication in 5.454 seconds (JVM running for 136.221)
+2022-07-30 10:57:33.528  INFO 41801 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-07-30 10:58:00.001  INFO 41801 --- [scheduling-1] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [103.146.21.146:5672]
+2022-07-30 10:58:00.044  INFO 41801 --- [scheduling-1] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#37fa27f3:0/SimpleConnection@78c0d [delegate=amqp://admin@103.146.21.146:5672/, localPort= 60270]
+2022-07-30 10:58:00.045  INFO 41801 --- [scheduling-1] o.s.amqp.rabbit.core.RabbitAdmin         : Auto-declaring a non-durable, auto-delete, or exclusive Queue (idb.myqueue) durable:false, auto-delete:false, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2022-07-30 10:58:00.081  INFO 41801 --- [scheduling-1] c.idb.messagemq.Services.RabbitMQSender  : There is no message in Rabbit MQ queue
+2022-07-30 10:58:00.082  INFO 41801 --- [scheduling-1] c.i.m.Utils.ZaloNotificationSender       : Send zalo message fails: 0
+2022-07-30 10:58:00.082  INFO 41801 --- [scheduling-1] aloSendNotificationFromRabbitMQScheduler : Send zalo messages success: 0
+2022-07-30 10:58:00.082  INFO 41801 --- [scheduling-1] aloSendNotificationFromRabbitMQScheduler : Cron expression: 0 0/1 * * * ?
+2022-07-30 10:59:00.009  INFO 41801 --- [scheduling-1] c.idb.messagemq.Services.RabbitMQSender  : There is no message in Rabbit MQ queue
+2022-07-30 10:59:00.009  INFO 41801 --- [scheduling-1] c.i.m.Utils.ZaloNotificationSender       : Send zalo message fails: 0
+2022-07-30 10:59:00.009  INFO 41801 --- [scheduling-1] aloSendNotificationFromRabbitMQScheduler : Send zalo messages success: 0
+2022-07-30 10:59:00.009  INFO 41801 --- [scheduling-1] aloSendNotificationFromRabbitMQScheduler : Cron expression: 0 0/1 * * * ?
+2022-07-30 11:00:00.009  INFO 41801 --- [scheduling-1] c.idb.messagemq.Services.RabbitMQSender  : There is no message in Rabbit MQ queue
+2022-07-30 11:00:00.010  INFO 41801 --- [scheduling-1] c.i.m.Utils.ZaloNotificationSender       : Send zalo message fails: 0
+2022-07-30 11:00:00.010  INFO 41801 --- [scheduling-1] aloSendNotificationFromRabbitMQScheduler : Send zalo messages success: 0
+2022-07-30 11:00:00.010  INFO 41801 --- [scheduling-1] aloSendNotificationFromRabbitMQScheduler : Cron expression: 0 0/1 * * * ?
+2022-07-30 11:01:00.009  INFO 41801 --- [scheduling-1] c.idb.messagemq.Services.RabbitMQSender  : There is no message in Rabbit MQ queue
+2022-07-30 11:01:00.009  INFO 41801 --- [scheduling-1] c.i.m.Utils.ZaloNotificationSender       : Send zalo message fails: 0
+2022-07-30 11:01:00.010  INFO 41801 --- [scheduling-1] aloSendNotificationFromRabbitMQScheduler : Send zalo messages success: 0
+2022-07-30 11:01:00.010  INFO 41801 --- [scheduling-1] aloSendNotificationFromRabbitMQScheduler : Cron expression: 0 0/1 * * * ?
+2022-07-30 11:02:00.010  INFO 41801 --- [scheduling-1] c.idb.messagemq.Services.RabbitMQSender  : There is no message in Rabbit MQ queue
+2022-07-30 11:02:00.011  INFO 41801 --- [scheduling-1] c.i.m.Utils.ZaloNotificationSender       : Send zalo message fails: 0
+2022-07-30 11:02:00.011  INFO 41801 --- [scheduling-1] aloSendNotificationFromRabbitMQScheduler : Send zalo messages success: 0
+2022-07-30 11:02:00.011  INFO 41801 --- [scheduling-1] aloSendNotificationFromRabbitMQScheduler : Cron expression: 0 0/1 * * * ?
+2022-07-30 11:03:00.009  INFO 41801 --- [scheduling-1] c.idb.messagemq.Services.RabbitMQSender  : There is no message in Rabbit MQ queue
+2022-07-30 11:03:00.010  INFO 41801 --- [scheduling-1] c.i.m.Utils.ZaloNotificationSender       : Send zalo message fails: 0
+2022-07-30 11:03:00.010  INFO 41801 --- [scheduling-1] aloSendNotificationFromRabbitMQScheduler : Send zalo messages success: 0
+2022-07-30 11:03:00.010  INFO 41801 --- [scheduling-1] aloSendNotificationFromRabbitMQScheduler : Cron expression: 0 0/1 * * * ?
+2022-07-30 11:03:32.951  INFO 41801 --- [restartedMain] com.idb.messagemq.MessagemqApplication   : Starting MessagemqApplication using Java 18.0.1 on Dinh-Phus-MacBook-Pro-16.local with PID 41801 (/Users/dinhphu/tmp/thtruemilk/spring-src/messagemq/target/classes started by dinhphu in /Users/dinhphu/tmp/thtruemilk/spring-src/messagemq)
+2022-07-30 11:03:32.951  INFO 41801 --- [restartedMain] com.idb.messagemq.MessagemqApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-07-30 11:03:33.140  INFO 41801 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-30 11:03:33.141  INFO 41801 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-30 11:03:33.141  INFO 41801 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-07-30 11:03:33.148  INFO 41801 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-30 11:03:33.148  INFO 41801 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 195 ms
+2022-07-30 11:03:33.321  INFO 41801 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-30 11:03:33.332  INFO 41801 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-30 11:03:33.337  INFO 41801 --- [restartedMain] com.idb.messagemq.MessagemqApplication   : Started MessagemqApplication in 5.406 seconds (JVM running for 496.041)
+2022-07-30 11:03:33.338  INFO 41801 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-07-30 11:04:00.001  INFO 41801 --- [scheduling-1] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [103.146.21.146:5672]
+2022-07-30 11:04:00.042  INFO 41801 --- [scheduling-1] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#7c8bafc:0/SimpleConnection@6c362522 [delegate=amqp://admin@103.146.21.146:5672/, localPort= 60306]
+2022-07-30 11:04:00.043  INFO 41801 --- [scheduling-1] o.s.amqp.rabbit.core.RabbitAdmin         : Auto-declaring a non-durable, auto-delete, or exclusive Queue (idb.myqueue) durable:false, auto-delete:false, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2022-07-30 11:04:00.086  INFO 41801 --- [scheduling-1] c.idb.messagemq.Services.RabbitMQSender  : There is no message in Rabbit MQ queue
+2022-07-30 11:04:00.086  INFO 41801 --- [scheduling-1] c.i.m.Utils.ZaloNotificationSender       : Send zalo message fails: 0
+2022-07-30 11:04:00.086  INFO 41801 --- [scheduling-1] aloSendNotificationFromRabbitMQScheduler : Send zalo messages success: 0
+2022-07-30 11:04:00.086  INFO 41801 --- [scheduling-1] aloSendNotificationFromRabbitMQScheduler : Cron expression: 0 0/1 * * * ?
+2022-07-30 11:04:27.226  INFO 41801 --- [restartedMain] com.idb.messagemq.MessagemqApplication   : Starting MessagemqApplication using Java 18.0.1 on Dinh-Phus-MacBook-Pro-16.local with PID 41801 (/Users/dinhphu/tmp/thtruemilk/spring-src/messagemq/target/classes started by dinhphu in /Users/dinhphu/tmp/thtruemilk/spring-src/messagemq)
+2022-07-30 11:04:27.227  INFO 41801 --- [restartedMain] com.idb.messagemq.MessagemqApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-07-30 11:04:27.389  INFO 41801 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-30 11:04:27.390  INFO 41801 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-30 11:04:27.390  INFO 41801 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-07-30 11:04:27.398  INFO 41801 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-30 11:04:27.398  INFO 41801 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 170 ms
+2022-07-30 11:04:27.576  INFO 41801 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-30 11:04:27.582  INFO 41801 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-30 11:04:27.588  INFO 41801 --- [restartedMain] com.idb.messagemq.MessagemqApplication   : Started MessagemqApplication in 5.385 seconds (JVM running for 550.292)
+2022-07-30 11:04:27.589  INFO 41801 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-07-30 11:04:59.416  INFO 42106 --- [restartedMain] com.idb.messagemq.MessagemqApplication   : Starting MessagemqApplication using Java 18.0.1 on Dinh-Phus-MacBook-Pro-16.local with PID 42106 (/Users/dinhphu/tmp/thtruemilk/spring-src/messagemq/target/classes started by dinhphu in /Users/dinhphu/tmp/thtruemilk/spring-src/messagemq)
+2022-07-30 11:04:59.418  INFO 42106 --- [restartedMain] com.idb.messagemq.MessagemqApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-07-30 11:04:59.473  INFO 42106 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-30 11:04:59.473  INFO 42106 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-30 11:05:00.543  INFO 42106 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-30 11:05:00.555  INFO 42106 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-30 11:05:00.555  INFO 42106 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-07-30 11:05:00.615  INFO 42106 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-30 11:05:00.616  INFO 42106 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1142 ms
+2022-07-30 11:05:01.582  INFO 42106 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-30 11:05:01.614  INFO 42106 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-30 11:05:01.632  INFO 42106 --- [restartedMain] com.idb.messagemq.MessagemqApplication   : Started MessagemqApplication in 7.601 seconds (JVM running for 8.009)
+2022-07-30 11:05:10.006  INFO 42106 --- [scheduling-1] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [103.146.21.146:5672]
+2022-07-30 11:05:10.071  INFO 42106 --- [scheduling-1] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#2156a1ac:0/SimpleConnection@1478ebb9 [delegate=amqp://admin@103.146.21.146:5672/, localPort= 60312]
+2022-07-30 11:05:10.077  INFO 42106 --- [scheduling-1] o.s.amqp.rabbit.core.RabbitAdmin         : Auto-declaring a non-durable, auto-delete, or exclusive Queue (idb.myqueue) durable:false, auto-delete:false, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2022-07-30 11:05:10.131  INFO 42106 --- [scheduling-1] c.idb.messagemq.Services.RabbitMQSender  : There is no message in Rabbit MQ queue
+2022-07-30 11:05:10.131  INFO 42106 --- [scheduling-1] c.i.m.Utils.ZaloNotificationSender       : Send zalo message fails: 0
+2022-07-30 11:05:10.131  INFO 42106 --- [scheduling-1] aloSendNotificationFromRabbitMQScheduler : Send zalo messages success: 0
+2022-07-30 11:05:20.010  INFO 42106 --- [scheduling-1] c.idb.messagemq.Services.RabbitMQSender  : There is no message in Rabbit MQ queue
+2022-07-30 11:05:20.012  INFO 42106 --- [scheduling-1] c.i.m.Utils.ZaloNotificationSender       : Send zalo message fails: 0
+2022-07-30 11:05:20.012  INFO 42106 --- [scheduling-1] aloSendNotificationFromRabbitMQScheduler : Send zalo messages success: 0
+2022-07-30 11:05:30.007  INFO 42106 --- [scheduling-1] c.idb.messagemq.Services.RabbitMQSender  : There is no message in Rabbit MQ queue
+2022-07-30 11:05:30.008  INFO 42106 --- [scheduling-1] c.i.m.Utils.ZaloNotificationSender       : Send zalo message fails: 0
+2022-07-30 11:05:30.008  INFO 42106 --- [scheduling-1] aloSendNotificationFromRabbitMQScheduler : Send zalo messages success: 0
+2022-07-30 11:05:40.006  INFO 42106 --- [scheduling-1] c.idb.messagemq.Services.RabbitMQSender  : There is no message in Rabbit MQ queue
+2022-07-30 11:05:40.007  INFO 42106 --- [scheduling-1] c.i.m.Utils.ZaloNotificationSender       : Send zalo message fails: 0
+2022-07-30 11:05:40.007  INFO 42106 --- [scheduling-1] aloSendNotificationFromRabbitMQScheduler : Send zalo messages success: 0
+2022-07-30 11:05:50.011  INFO 42106 --- [scheduling-1] c.idb.messagemq.Services.RabbitMQSender  : There is no message in Rabbit MQ queue
+2022-07-30 11:05:50.012  INFO 42106 --- [scheduling-1] c.i.m.Utils.ZaloNotificationSender       : Send zalo message fails: 0
+2022-07-30 11:05:50.012  INFO 42106 --- [scheduling-1] aloSendNotificationFromRabbitMQScheduler : Send zalo messages success: 0
+2022-07-30 11:07:14.251  INFO 42199 --- [main] c.i.messagemq.MessagemqApplicationTests  : Starting MessagemqApplicationTests using Java 18.0.1 on Dinh-Phus-MacBook-Pro-16.local with PID 42199 (started by dinhphu in /Users/dinhphu/tmp/thtruemilk/spring-src/messagemq)
+2022-07-30 11:07:14.252  INFO 42199 --- [main] c.i.messagemq.MessagemqApplicationTests  : No active profile set, falling back to 1 default profile: "default"
+2022-07-30 11:07:17.258  INFO 42199 --- [main] c.i.messagemq.MessagemqApplicationTests  : Started MessagemqApplicationTests in 8.315 seconds (JVM running for 9.268)
+2022-07-30 15:50:38.094  INFO 51873 --- [main] c.i.messagemq.MessagemqApplicationTests  : Starting MessagemqApplicationTests using Java 18.0.1 on Dinh-Phus-MacBook-Pro-16.local with PID 51873 (started by dinhphu in /Users/dinhphu/tmp/thtruemilk/spring-src/messagemq)
+2022-07-30 15:50:38.096  INFO 51873 --- [main] c.i.messagemq.MessagemqApplicationTests  : No active profile set, falling back to 1 default profile: "default"
+2022-07-30 15:50:40.001  INFO 51873 --- [scheduling-1] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [103.146.21.146:5672]
+2022-07-30 15:50:40.003  INFO 51873 --- [main] c.i.messagemq.MessagemqApplicationTests  : Started MessagemqApplicationTests in 7.13 seconds (JVM running for 7.762)
+2022-07-30 15:50:40.074  INFO 51873 --- [scheduling-1] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#77fa9381:0/SimpleConnection@4cc5da92 [delegate=amqp://admin@103.146.21.146:5672/, localPort= 61718]
+2022-07-30 15:50:40.078  INFO 51873 --- [scheduling-1] o.s.amqp.rabbit.core.RabbitAdmin         : Auto-declaring a non-durable, auto-delete, or exclusive Queue (idb.myqueue) durable:false, auto-delete:false, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2022-07-30 15:50:40.134  INFO 51873 --- [scheduling-1] c.idb.messagemq.Services.RabbitMQSender  : There is no message in Rabbit MQ queue
+2022-07-30 15:50:40.134  INFO 51873 --- [scheduling-1] c.i.m.Utils.ZaloNotificationSender       : Send zalo message fails: 0
+2022-07-30 15:50:40.134  INFO 51873 --- [scheduling-1] aloSendNotificationFromRabbitMQScheduler : Send zalo messages success: 0
+2022-07-30 16:25:18.117  INFO 53310 --- [main] c.i.messagemq.MessagemqApplicationTests  : Starting MessagemqApplicationTests using Java 18.0.1 on Dinh-Phus-MacBook-Pro-16.local with PID 53310 (started by dinhphu in /Users/dinhphu/tmp/thtruemilk/spring-src/messagemq)
+2022-07-30 16:25:18.118  INFO 53310 --- [main] c.i.messagemq.MessagemqApplicationTests  : No active profile set, falling back to 1 default profile: "default"
+2022-07-30 16:25:20.229  INFO 53310 --- [main] c.i.messagemq.MessagemqApplicationTests  : Started MessagemqApplicationTests in 7.393 seconds (JVM running for 8.062)
+2022-07-30 16:28:02.232  INFO 53442 --- [main] c.i.messagemq.MessagemqApplicationTests  : Starting MessagemqApplicationTests using Java 18.0.1 on Dinh-Phus-MacBook-Pro-16.local with PID 53442 (started by dinhphu in /Users/dinhphu/tmp/thtruemilk/spring-src/messagemq)
+2022-07-30 16:28:02.234  INFO 53442 --- [main] c.i.messagemq.MessagemqApplicationTests  : No active profile set, falling back to 1 default profile: "default"
+2022-07-30 16:28:04.677  INFO 53442 --- [main] c.i.messagemq.MessagemqApplicationTests  : Started MessagemqApplicationTests in 7.707 seconds (JVM running for 8.404)
+2022-07-30 16:29:47.063  INFO 53552 --- [main] c.i.messagemq.MessagemqApplicationTests  : Starting MessagemqApplicationTests using Java 18.0.1 on Dinh-Phus-MacBook-Pro-16.local with PID 53552 (started by dinhphu in /Users/dinhphu/tmp/thtruemilk/spring-src/messagemq)
+2022-07-30 16:29:47.065  INFO 53552 --- [main] c.i.messagemq.MessagemqApplicationTests  : No active profile set, falling back to 1 default profile: "default"
+2022-07-30 16:29:48.996  INFO 53552 --- [main] c.i.messagemq.MessagemqApplicationTests  : Started MessagemqApplicationTests in 7.142 seconds (JVM running for 7.791)

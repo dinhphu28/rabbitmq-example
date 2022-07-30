@@ -1,0 +1,105 @@
+2022-07-29 18:02:16.871  INFO 28053 --- [restartedMain] com.idb.messagemq.MessagemqApplication   : Starting MessagemqApplication using Java 18.0.1 on Dinh-Phus-MacBook-Pro-16.local with PID 28053 (/Users/dinhphu/tmp/thtruemilk/spring-src/messagemq/target/classes started by dinhphu in /Users/dinhphu/tmp/thtruemilk/spring-src/messagemq)
+2022-07-29 18:02:16.872  INFO 28053 --- [restartedMain] com.idb.messagemq.MessagemqApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-07-29 18:02:16.995  INFO 28053 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-29 18:02:16.995  INFO 28053 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-29 18:02:16.996  INFO 28053 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-07-29 18:02:17.000  INFO 28053 --- [restartedMain] o.a.c.c.C.[Tomcat-2].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2022-07-29 18:02:17.000  INFO 28053 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 127 ms
+2022-07-29 18:02:17.015  WARN 28053 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'zaloSendNotificationFromRabbitMQScheduler' defined in file [/Users/dinhphu/tmp/thtruemilk/spring-src/messagemq/target/classes/com/idb/messagemq/Scheduler/ZaloSendNotificationFromRabbitMQScheduler.class]: Initialization of bean failed; nested exception is java.lang.IllegalStateException: Encountered invalid @Scheduled method 'SendZaloMessage': Cron expression must consist of 6 fields (found 5 in "* * * * *")
+2022-07-29 18:02:17.015  INFO 28053 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-07-29 18:02:17.019  INFO 28053 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-07-29 18:02:17.021 ERROR 28053 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'zaloSendNotificationFromRabbitMQScheduler' defined in file [/Users/dinhphu/tmp/thtruemilk/spring-src/messagemq/target/classes/com/idb/messagemq/Scheduler/ZaloSendNotificationFromRabbitMQScheduler.class]: Initialization of bean failed; nested exception is java.lang.IllegalStateException: Encountered invalid @Scheduled method 'SendZaloMessage': Cron expression must consist of 6 fields (found 5 in "* * * * *")
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:628) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.22.jar:5.3.22]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.22.jar:5.3.22]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147) ~[spring-boot-2.7.2.jar:2.7.2]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734) ~[spring-boot-2.7.2.jar:2.7.2]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408) ~[spring-boot-2.7.2.jar:2.7.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308) ~[spring-boot-2.7.2.jar:2.7.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306) ~[spring-boot-2.7.2.jar:2.7.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295) ~[spring-boot-2.7.2.jar:2.7.2]
+	at com.idb.messagemq.MessagemqApplication.main(MessagemqApplication.java:12) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-2.7.2.jar:2.7.2]
+Caused by: java.lang.IllegalStateException: Encountered invalid @Scheduled method 'SendZaloMessage': Cron expression must consist of 6 fields (found 5 in "* * * * *")
+	at org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor.processScheduled(ScheduledAnnotationBeanPostProcessor.java:518) ~[spring-context-5.3.22.jar:5.3.22]
+	at org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor.lambda$null$1(ScheduledAnnotationBeanPostProcessor.java:380) ~[spring-context-5.3.22.jar:5.3.22]
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75) ~[na:na]
+	at org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor.lambda$postProcessAfterInitialization$2(ScheduledAnnotationBeanPostProcessor.java:380) ~[spring-context-5.3.22.jar:5.3.22]
+	at java.base/java.util.LinkedHashMap.forEach(LinkedHashMap.java:721) ~[na:na]
+	at org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor.postProcessAfterInitialization(ScheduledAnnotationBeanPostProcessor.java:379) ~[spring-context-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsAfterInitialization(AbstractAutowireCapableBeanFactory.java:455) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1808) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620) ~[spring-beans-5.3.22.jar:5.3.22]
+	... 18 common frames omitted
+
+2022-07-29 18:05:20.008  INFO 28053 --- [restartedMain] com.idb.messagemq.MessagemqApplication   : Starting MessagemqApplication using Java 18.0.1 on Dinh-Phus-MacBook-Pro-16.local with PID 28053 (/Users/dinhphu/tmp/thtruemilk/spring-src/messagemq/target/classes started by dinhphu in /Users/dinhphu/tmp/thtruemilk/spring-src/messagemq)
+2022-07-29 18:05:20.009  INFO 28053 --- [restartedMain] com.idb.messagemq.MessagemqApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-07-29 18:05:20.139  INFO 28053 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-29 18:05:20.140  INFO 28053 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-29 18:05:20.140  INFO 28053 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-07-29 18:05:20.145  INFO 28053 --- [restartedMain] o.a.c.c.C.[Tomcat-3].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2022-07-29 18:05:20.146  INFO 28053 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 136 ms
+2022-07-29 18:05:20.297  INFO 28053 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-29 18:05:20.302  INFO 28053 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-29 18:05:20.313  INFO 28053 --- [restartedMain] com.idb.messagemq.MessagemqApplication   : Started MessagemqApplication in 5.323 seconds (JVM running for 7992.384)
+2022-07-29 18:05:20.318  INFO 28053 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+   TaskSchedulingAutoConfiguration#taskScheduler matched:
+      - @ConditionalOnBean (names: org.springframework.context.annotation.internalScheduledAnnotationProcessor; SearchStrategy: all) found bean 'org.springframework.context.annotation.internalScheduledAnnotationProcessor'; @ConditionalOnMissingBean (types: org.springframework.scheduling.annotation.SchedulingConfigurer,org.springframework.scheduling.TaskScheduler,java.util.concurrent.ScheduledExecutorService; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+
+Negative matches:
+-----------------
+
+    None
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2022-07-29 18:05:55.012  INFO 28053 --- [restartedMain] com.idb.messagemq.MessagemqApplication   : Starting MessagemqApplication using Java 18.0.1 on Dinh-Phus-MacBook-Pro-16.local with PID 28053 (/Users/dinhphu/tmp/thtruemilk/spring-src/messagemq/target/classes started by dinhphu in /Users/dinhphu/tmp/thtruemilk/spring-src/messagemq)
+2022-07-29 18:05:55.012  INFO 28053 --- [restartedMain] com.idb.messagemq.MessagemqApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-07-29 18:05:55.135  INFO 28053 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-29 18:05:55.135  INFO 28053 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-29 18:05:55.135  INFO 28053 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-07-29 18:05:55.141  INFO 28053 --- [restartedMain] o.a.c.c.C.[Tomcat-3].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2022-07-29 18:05:55.141  INFO 28053 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 127 ms
+2022-07-29 18:05:55.283  INFO 28053 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-29 18:05:55.290  INFO 28053 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-29 18:05:55.294  INFO 28053 --- [restartedMain] com.idb.messagemq.MessagemqApplication   : Started MessagemqApplication in 5.296 seconds (JVM running for 8027.365)
+2022-07-29 18:05:55.295  INFO 28053 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-07-29 18:06:00.004  INFO 28053 --- [scheduling-1] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [103.146.21.146:5672]
+2022-07-29 18:06:00.032  INFO 28053 --- [scheduling-1] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#34fdecdc:0/SimpleConnection@6e53cf23 [delegate=amqp://admin@103.146.21.146:5672/, localPort= 58316]
+2022-07-29 18:06:00.033  INFO 28053 --- [scheduling-1] o.s.amqp.rabbit.core.RabbitAdmin         : Auto-declaring a non-durable, auto-delete, or exclusive Queue (idb.myqueue) durable:false, auto-delete:false, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2022-07-29 18:06:00.066  INFO 28053 --- [scheduling-1] aloSendNotificationFromRabbitMQScheduler : There is no message to send in queue!

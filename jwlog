@@ -1,0 +1,706 @@
+2022-07-29 15:52:13.540  INFO 28053 --- [restartedMain] com.idb.messagemq.MessagemqApplication   : Starting MessagemqApplication using Java 18.0.1 on Dinh-Phus-MacBook-Pro-16.local with PID 28053 (/Users/dinhphu/tmp/thtruemilk/spring-src/messagemq/target/classes started by dinhphu in /Users/dinhphu/tmp/thtruemilk/spring-src/messagemq)
+2022-07-29 15:52:13.540  INFO 28053 --- [restartedMain] com.idb.messagemq.MessagemqApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-07-29 15:52:13.578  INFO 28053 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-29 15:52:13.578  INFO 28053 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-29 15:52:14.494  INFO 28053 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-29 15:52:14.506  INFO 28053 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-29 15:52:14.506  INFO 28053 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-07-29 15:52:14.558  INFO 28053 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-29 15:52:14.558  INFO 28053 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 979 ms
+2022-07-29 15:52:15.351  INFO 28053 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-29 15:52:15.380  INFO 28053 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-29 15:52:15.391  INFO 28053 --- [restartedMain] com.idb.messagemq.MessagemqApplication   : Started MessagemqApplication in 7.166 seconds (JVM running for 7.479)
+2022-07-29 15:52:24.313  INFO 28053 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-29 15:52:24.313  INFO 28053 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-29 15:52:24.315  INFO 28053 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2022-07-29 15:52:26.498  INFO 28053 --- [http-nio-8080-exec-3] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 71 ms
+2022-07-29 15:54:37.839  INFO 28053 --- [restartedMain] com.idb.messagemq.MessagemqApplication   : Starting MessagemqApplication using Java 18.0.1 on Dinh-Phus-MacBook-Pro-16.local with PID 28053 (/Users/dinhphu/tmp/thtruemilk/spring-src/messagemq/target/classes started by dinhphu in /Users/dinhphu/tmp/thtruemilk/spring-src/messagemq)
+2022-07-29 15:54:37.840  INFO 28053 --- [restartedMain] com.idb.messagemq.MessagemqApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-07-29 15:54:37.984  INFO 28053 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-29 15:54:37.984  INFO 28053 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-29 15:54:37.984  INFO 28053 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-07-29 15:54:37.990  INFO 28053 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-29 15:54:37.991  INFO 28053 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 150 ms
+2022-07-29 15:54:38.121  INFO 28053 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-29 15:54:38.125  INFO 28053 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-29 15:54:38.129  INFO 28053 --- [restartedMain] com.idb.messagemq.MessagemqApplication   : Started MessagemqApplication in 5.309 seconds (JVM running for 150.217)
+2022-07-29 15:54:38.130  INFO 28053 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-07-29 16:03:37.755  INFO 28053 --- [restartedMain] com.idb.messagemq.MessagemqApplication   : Starting MessagemqApplication using Java 18.0.1 on Dinh-Phus-MacBook-Pro-16.local with PID 28053 (/Users/dinhphu/tmp/thtruemilk/spring-src/messagemq/target/classes started by dinhphu in /Users/dinhphu/tmp/thtruemilk/spring-src/messagemq)
+2022-07-29 16:03:37.756  INFO 28053 --- [restartedMain] com.idb.messagemq.MessagemqApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-07-29 16:03:37.890  INFO 28053 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-29 16:03:37.890  INFO 28053 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-29 16:03:37.890  INFO 28053 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-07-29 16:03:37.896  INFO 28053 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-29 16:03:37.896  INFO 28053 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 138 ms
+2022-07-29 16:03:38.016  INFO 28053 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-29 16:03:38.021  INFO 28053 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-29 16:03:38.025  INFO 28053 --- [restartedMain] com.idb.messagemq.MessagemqApplication   : Started MessagemqApplication in 5.286 seconds (JVM running for 690.117)
+2022-07-29 16:03:38.026  INFO 28053 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-07-29 16:03:49.516  INFO 28053 --- [restartedMain] com.idb.messagemq.MessagemqApplication   : Starting MessagemqApplication using Java 18.0.1 on Dinh-Phus-MacBook-Pro-16.local with PID 28053 (/Users/dinhphu/tmp/thtruemilk/spring-src/messagemq/target/classes started by dinhphu in /Users/dinhphu/tmp/thtruemilk/spring-src/messagemq)
+2022-07-29 16:03:49.516  INFO 28053 --- [restartedMain] com.idb.messagemq.MessagemqApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-07-29 16:03:49.638  INFO 28053 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-29 16:03:49.638  INFO 28053 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-29 16:03:49.638  INFO 28053 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-07-29 16:03:49.643  INFO 28053 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-29 16:03:49.643  INFO 28053 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 125 ms
+2022-07-29 16:03:49.751  INFO 28053 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-29 16:03:49.755  INFO 28053 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-29 16:03:49.757  INFO 28053 --- [restartedMain] com.idb.messagemq.MessagemqApplication   : Started MessagemqApplication in 5.257 seconds (JVM running for 701.85)
+2022-07-29 16:03:49.758  INFO 28053 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-07-29 16:04:26.444  INFO 28053 --- [restartedMain] com.idb.messagemq.MessagemqApplication   : Starting MessagemqApplication using Java 18.0.1 on Dinh-Phus-MacBook-Pro-16.local with PID 28053 (/Users/dinhphu/tmp/thtruemilk/spring-src/messagemq/target/classes started by dinhphu in /Users/dinhphu/tmp/thtruemilk/spring-src/messagemq)
+2022-07-29 16:04:26.445  INFO 28053 --- [restartedMain] com.idb.messagemq.MessagemqApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-07-29 16:04:26.615  INFO 28053 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-29 16:04:26.615  INFO 28053 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-29 16:04:26.615  INFO 28053 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-07-29 16:04:26.621  INFO 28053 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-29 16:04:26.621  INFO 28053 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 174 ms
+2022-07-29 16:04:26.734  INFO 28053 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-29 16:04:26.738  INFO 28053 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-29 16:04:26.741  INFO 28053 --- [restartedMain] com.idb.messagemq.MessagemqApplication   : Started MessagemqApplication in 5.313 seconds (JVM running for 738.834)
+2022-07-29 16:04:26.742  INFO 28053 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-07-29 16:04:31.069  INFO 28053 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-29 16:04:31.069  INFO 28053 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-29 16:04:31.070  INFO 28053 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-07-29 16:05:38.684  INFO 28053 --- [restartedMain] com.idb.messagemq.MessagemqApplication   : Starting MessagemqApplication using Java 18.0.1 on Dinh-Phus-MacBook-Pro-16.local with PID 28053 (/Users/dinhphu/tmp/thtruemilk/spring-src/messagemq/target/classes started by dinhphu in /Users/dinhphu/tmp/thtruemilk/spring-src/messagemq)
+2022-07-29 16:05:38.685  INFO 28053 --- [restartedMain] com.idb.messagemq.MessagemqApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-07-29 16:05:38.815  INFO 28053 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-29 16:05:38.816  INFO 28053 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-29 16:05:38.816  INFO 28053 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-07-29 16:05:38.823  INFO 28053 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-29 16:05:38.823  INFO 28053 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 137 ms
+2022-07-29 16:05:38.961  INFO 28053 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-29 16:05:38.966  INFO 28053 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-29 16:05:38.970  INFO 28053 --- [restartedMain] com.idb.messagemq.MessagemqApplication   : Started MessagemqApplication in 5.3 seconds (JVM running for 811.063)
+2022-07-29 16:05:38.971  INFO 28053 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-07-29 16:05:41.567  INFO 28053 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-29 16:05:41.567  INFO 28053 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-29 16:05:41.567  INFO 28053 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2022-07-29 16:08:05.412  INFO 28053 --- [restartedMain] com.idb.messagemq.MessagemqApplication   : Starting MessagemqApplication using Java 18.0.1 on Dinh-Phus-MacBook-Pro-16.local with PID 28053 (/Users/dinhphu/tmp/thtruemilk/spring-src/messagemq/target/classes started by dinhphu in /Users/dinhphu/tmp/thtruemilk/spring-src/messagemq)
+2022-07-29 16:08:05.412  INFO 28053 --- [restartedMain] com.idb.messagemq.MessagemqApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-07-29 16:08:05.534  INFO 28053 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-29 16:08:05.534  INFO 28053 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-29 16:08:05.534  INFO 28053 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-07-29 16:08:05.542  INFO 28053 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-29 16:08:05.542  INFO 28053 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 129 ms
+2022-07-29 16:08:05.559  WARN 28053 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name '/api/v1/test': Unsatisfied dependency expressed through field 'zaloMessageSender'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'zaloMessageSender': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'idb.external-resource.zalo-api' in value "${idb.external-resource.zalo-api}"
+2022-07-29 16:08:05.560  INFO 28053 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-07-29 16:08:05.565  INFO 28053 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-07-29 16:08:05.586 ERROR 28053 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name '/api/v1/test': Unsatisfied dependency expressed through field 'zaloMessageSender'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'zaloMessageSender': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'idb.external-resource.zalo-api' in value "${idb.external-resource.zalo-api}"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:659) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:639) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.22.jar:5.3.22]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.22.jar:5.3.22]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147) ~[spring-boot-2.7.2.jar:2.7.2]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734) ~[spring-boot-2.7.2.jar:2.7.2]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408) ~[spring-boot-2.7.2.jar:2.7.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308) ~[spring-boot-2.7.2.jar:2.7.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306) ~[spring-boot-2.7.2.jar:2.7.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295) ~[spring-boot-2.7.2.jar:2.7.2]
+	at com.idb.messagemq.MessagemqApplication.main(MessagemqApplication.java:10) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-2.7.2.jar:2.7.2]
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'zaloMessageSender': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'idb.external-resource.zalo-api' in value "${idb.external-resource.zalo-api}"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:405) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:656) ~[spring-beans-5.3.22.jar:5.3.22]
+	... 23 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'idb.external-resource.zalo-api' in value "${idb.external-resource.zalo-api}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:180) ~[spring-core-5.3.22.jar:5.3.22]
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:126) ~[spring-core-5.3.22.jar:5.3.22]
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:239) ~[spring-core-5.3.22.jar:5.3.22]
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:210) ~[spring-core-5.3.22.jar:5.3.22]
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:191) ~[spring-context-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:936) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1332) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:656) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:639) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399) ~[spring-beans-5.3.22.jar:5.3.22]
+	... 34 common frames omitted
+
+2022-07-29 16:08:07.018  INFO 28053 --- [restartedMain] com.idb.messagemq.MessagemqApplication   : Starting MessagemqApplication using Java 18.0.1 on Dinh-Phus-MacBook-Pro-16.local with PID 28053 (/Users/dinhphu/tmp/thtruemilk/spring-src/messagemq/target/classes started by dinhphu in /Users/dinhphu/tmp/thtruemilk/spring-src/messagemq)
+2022-07-29 16:08:07.018  INFO 28053 --- [restartedMain] com.idb.messagemq.MessagemqApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-07-29 16:08:07.119  INFO 28053 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-29 16:08:07.120  INFO 28053 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-29 16:08:07.120  INFO 28053 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-07-29 16:08:07.124  INFO 28053 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2022-07-29 16:08:07.124  INFO 28053 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 104 ms
+2022-07-29 16:08:07.237  INFO 28053 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-29 16:08:07.242  INFO 28053 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-29 16:08:07.246  INFO 28053 --- [restartedMain] com.idb.messagemq.MessagemqApplication   : Started MessagemqApplication in 0.24 seconds (JVM running for 959.339)
+2022-07-29 16:08:07.247  INFO 28053 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-07-29 16:08:13.543  INFO 28053 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-29 16:08:13.543  INFO 28053 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-29 16:08:13.544  INFO 28053 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-07-29 16:09:04.072  INFO 28053 --- [restartedMain] com.idb.messagemq.MessagemqApplication   : Starting MessagemqApplication using Java 18.0.1 on Dinh-Phus-MacBook-Pro-16.local with PID 28053 (/Users/dinhphu/tmp/thtruemilk/spring-src/messagemq/target/classes started by dinhphu in /Users/dinhphu/tmp/thtruemilk/spring-src/messagemq)
+2022-07-29 16:09:04.072  INFO 28053 --- [restartedMain] com.idb.messagemq.MessagemqApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-07-29 16:09:04.188  INFO 28053 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-29 16:09:04.188  INFO 28053 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-29 16:09:04.188  INFO 28053 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-07-29 16:09:04.193  INFO 28053 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2022-07-29 16:09:04.193  INFO 28053 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 120 ms
+2022-07-29 16:09:04.299  INFO 28053 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-29 16:09:04.303  INFO 28053 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-29 16:09:04.306  INFO 28053 --- [restartedMain] com.idb.messagemq.MessagemqApplication   : Started MessagemqApplication in 5.249 seconds (JVM running for 1016.4)
+2022-07-29 16:09:04.307  INFO 28053 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-07-29 16:11:40.870  INFO 28053 --- [restartedMain] com.idb.messagemq.MessagemqApplication   : Starting MessagemqApplication using Java 18.0.1 on Dinh-Phus-MacBook-Pro-16.local with PID 28053 (/Users/dinhphu/tmp/thtruemilk/spring-src/messagemq/target/classes started by dinhphu in /Users/dinhphu/tmp/thtruemilk/spring-src/messagemq)
+2022-07-29 16:11:40.870  INFO 28053 --- [restartedMain] com.idb.messagemq.MessagemqApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-07-29 16:11:41.003  INFO 28053 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-29 16:11:41.003  INFO 28053 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-29 16:11:41.003  INFO 28053 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-07-29 16:11:41.008  INFO 28053 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2022-07-29 16:11:41.008  INFO 28053 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 136 ms
+2022-07-29 16:11:41.114  INFO 28053 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-29 16:11:41.118  INFO 28053 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-29 16:11:41.121  INFO 28053 --- [restartedMain] com.idb.messagemq.MessagemqApplication   : Started MessagemqApplication in 5.265 seconds (JVM running for 1173.215)
+2022-07-29 16:11:41.121  INFO 28053 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-07-29 16:23:26.647  INFO 28053 --- [restartedMain] com.idb.messagemq.MessagemqApplication   : Starting MessagemqApplication using Java 18.0.1 on Dinh-Phus-MacBook-Pro-16.local with PID 28053 (/Users/dinhphu/tmp/thtruemilk/spring-src/messagemq/target/classes started by dinhphu in /Users/dinhphu/tmp/thtruemilk/spring-src/messagemq)
+2022-07-29 16:23:26.648  INFO 28053 --- [restartedMain] com.idb.messagemq.MessagemqApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-07-29 16:23:26.784  INFO 28053 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-29 16:23:26.784  INFO 28053 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-29 16:23:26.784  INFO 28053 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-07-29 16:23:26.788  INFO 28053 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2022-07-29 16:23:26.788  INFO 28053 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 138 ms
+2022-07-29 16:23:26.928  INFO 28053 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-29 16:23:26.932  INFO 28053 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-29 16:23:26.935  INFO 28053 --- [restartedMain] com.idb.messagemq.MessagemqApplication   : Started MessagemqApplication in 5.305 seconds (JVM running for 1878.995)
+2022-07-29 16:23:26.936  INFO 28053 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-07-29 16:24:35.865  INFO 28053 --- [restartedMain] com.idb.messagemq.MessagemqApplication   : Starting MessagemqApplication using Java 18.0.1 on Dinh-Phus-MacBook-Pro-16.local with PID 28053 (/Users/dinhphu/tmp/thtruemilk/spring-src/messagemq/target/classes started by dinhphu in /Users/dinhphu/tmp/thtruemilk/spring-src/messagemq)
+2022-07-29 16:24:35.866  INFO 28053 --- [restartedMain] com.idb.messagemq.MessagemqApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-07-29 16:24:35.980  INFO 28053 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-29 16:24:35.981  INFO 28053 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-29 16:24:35.981  INFO 28053 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-07-29 16:24:35.986  INFO 28053 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2022-07-29 16:24:35.986  INFO 28053 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 119 ms
+2022-07-29 16:24:36.096  INFO 28053 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-29 16:24:36.100  INFO 28053 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-29 16:24:36.103  INFO 28053 --- [restartedMain] com.idb.messagemq.MessagemqApplication   : Started MessagemqApplication in 5.251 seconds (JVM running for 1948.163)
+2022-07-29 16:24:36.103  INFO 28053 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-07-29 16:25:35.950  INFO 28053 --- [restartedMain] com.idb.messagemq.MessagemqApplication   : Starting MessagemqApplication using Java 18.0.1 on Dinh-Phus-MacBook-Pro-16.local with PID 28053 (/Users/dinhphu/tmp/thtruemilk/spring-src/messagemq/target/classes started by dinhphu in /Users/dinhphu/tmp/thtruemilk/spring-src/messagemq)
+2022-07-29 16:25:35.950  INFO 28053 --- [restartedMain] com.idb.messagemq.MessagemqApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-07-29 16:25:36.052  INFO 28053 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-29 16:25:36.052  INFO 28053 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-29 16:25:36.053  INFO 28053 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-07-29 16:25:36.057  INFO 28053 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2022-07-29 16:25:36.057  INFO 28053 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 106 ms
+2022-07-29 16:25:36.160  INFO 28053 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-29 16:25:36.165  INFO 28053 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-29 16:25:36.168  INFO 28053 --- [restartedMain] com.idb.messagemq.MessagemqApplication   : Started MessagemqApplication in 5.232 seconds (JVM running for 2008.228)
+2022-07-29 16:25:36.169  INFO 28053 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-07-29 16:36:04.749  INFO 28053 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-29 16:36:04.752  INFO 28053 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-29 16:36:04.762  INFO 28053 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2022-07-29 16:41:33.672  INFO 28053 --- [restartedMain] com.idb.messagemq.MessagemqApplication   : Starting MessagemqApplication using Java 18.0.1 on Dinh-Phus-MacBook-Pro-16.local with PID 28053 (/Users/dinhphu/tmp/thtruemilk/spring-src/messagemq/target/classes started by dinhphu in /Users/dinhphu/tmp/thtruemilk/spring-src/messagemq)
+2022-07-29 16:41:33.672  INFO 28053 --- [restartedMain] com.idb.messagemq.MessagemqApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-07-29 16:41:33.835  INFO 28053 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-29 16:41:33.835  INFO 28053 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-29 16:41:33.836  INFO 28053 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-07-29 16:41:33.840  INFO 28053 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2022-07-29 16:41:33.840  INFO 28053 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 166 ms
+2022-07-29 16:41:34.021  INFO 28053 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-29 16:41:34.026  INFO 28053 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-29 16:41:34.030  INFO 28053 --- [restartedMain] com.idb.messagemq.MessagemqApplication   : Started MessagemqApplication in 5.378 seconds (JVM running for 2966.071)
+2022-07-29 16:41:34.031  INFO 28053 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-07-29 16:50:42.924  INFO 28053 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-29 16:50:42.925  INFO 28053 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-29 16:50:42.926  INFO 28053 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-07-29 16:50:43.215  INFO 28053 --- [http-nio-8080-exec-3] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 26 ms
+2022-07-29 16:50:57.764  WARN 28053 --- [http-nio-8080-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type '' not supported]
+2022-07-29 16:51:35.603  INFO 28053 --- [restartedMain] com.idb.messagemq.MessagemqApplication   : Starting MessagemqApplication using Java 18.0.1 on Dinh-Phus-MacBook-Pro-16.local with PID 28053 (/Users/dinhphu/tmp/thtruemilk/spring-src/messagemq/target/classes started by dinhphu in /Users/dinhphu/tmp/thtruemilk/spring-src/messagemq)
+2022-07-29 16:51:35.604  INFO 28053 --- [restartedMain] com.idb.messagemq.MessagemqApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-07-29 16:51:35.730  INFO 28053 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-29 16:51:35.731  INFO 28053 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-29 16:51:35.731  INFO 28053 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-07-29 16:51:35.735  INFO 28053 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2022-07-29 16:51:35.735  INFO 28053 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 129 ms
+2022-07-29 16:51:35.854  INFO 28053 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-29 16:51:35.858  INFO 28053 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-29 16:51:35.862  INFO 28053 --- [restartedMain] com.idb.messagemq.MessagemqApplication   : Started MessagemqApplication in 5.272 seconds (JVM running for 3567.883)
+2022-07-29 16:51:35.863  INFO 28053 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-07-29 16:51:38.030  INFO 28053 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-29 16:51:38.030  INFO 28053 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-29 16:51:38.031  INFO 28053 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-07-29 16:51:38.217  INFO 28053 --- [http-nio-8080-exec-3] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 65 ms
+2022-07-29 16:52:21.468  INFO 28053 --- [http-nio-8080-exec-5] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [103.146.21.146:5672]
+2022-07-29 16:52:21.534  INFO 28053 --- [http-nio-8080-exec-5] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#58ba871b:0/SimpleConnection@312f9ac7 [delegate=amqp://admin@103.146.21.146:5672/, localPort= 57484]
+2022-07-29 16:52:21.539  INFO 28053 --- [http-nio-8080-exec-5] o.s.amqp.rabbit.core.RabbitAdmin         : Auto-declaring a non-durable, auto-delete, or exclusive Queue (idb.myqueue) durable:false, auto-delete:false, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2022-07-29 17:03:07.091  INFO 28053 --- [restartedMain] com.idb.messagemq.MessagemqApplication   : Starting MessagemqApplication using Java 18.0.1 on Dinh-Phus-MacBook-Pro-16.local with PID 28053 (/Users/dinhphu/tmp/thtruemilk/spring-src/messagemq/target/classes started by dinhphu in /Users/dinhphu/tmp/thtruemilk/spring-src/messagemq)
+2022-07-29 17:03:07.091  INFO 28053 --- [restartedMain] com.idb.messagemq.MessagemqApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-07-29 17:03:07.227  INFO 28053 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-29 17:03:07.227  INFO 28053 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-29 17:03:07.227  INFO 28053 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-07-29 17:03:07.232  INFO 28053 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2022-07-29 17:03:07.232  INFO 28053 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 139 ms
+2022-07-29 17:03:07.378  INFO 28053 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-29 17:03:07.383  INFO 28053 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-29 17:03:07.387  INFO 28053 --- [restartedMain] com.idb.messagemq.MessagemqApplication   : Started MessagemqApplication in 5.313 seconds (JVM running for 4259.401)
+2022-07-29 17:03:07.388  INFO 28053 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-07-29 17:03:57.225  INFO 28053 --- [restartedMain] com.idb.messagemq.MessagemqApplication   : Starting MessagemqApplication using Java 18.0.1 on Dinh-Phus-MacBook-Pro-16.local with PID 28053 (/Users/dinhphu/tmp/thtruemilk/spring-src/messagemq/target/classes started by dinhphu in /Users/dinhphu/tmp/thtruemilk/spring-src/messagemq)
+2022-07-29 17:03:57.226  INFO 28053 --- [restartedMain] com.idb.messagemq.MessagemqApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-07-29 17:03:57.342  INFO 28053 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-29 17:03:57.343  INFO 28053 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-29 17:03:57.343  INFO 28053 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-07-29 17:03:57.348  INFO 28053 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2022-07-29 17:03:57.348  INFO 28053 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 121 ms
+2022-07-29 17:03:57.521  INFO 28053 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-29 17:03:57.526  INFO 28053 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-29 17:03:57.531  INFO 28053 --- [restartedMain] com.idb.messagemq.MessagemqApplication   : Started MessagemqApplication in 5.315 seconds (JVM running for 4309.545)
+2022-07-29 17:03:57.533  INFO 28053 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-07-29 17:05:57.968  INFO 28053 --- [restartedMain] com.idb.messagemq.MessagemqApplication   : Starting MessagemqApplication using Java 18.0.1 on Dinh-Phus-MacBook-Pro-16.local with PID 28053 (/Users/dinhphu/tmp/thtruemilk/spring-src/messagemq/target/classes started by dinhphu in /Users/dinhphu/tmp/thtruemilk/spring-src/messagemq)
+2022-07-29 17:05:57.969  INFO 28053 --- [restartedMain] com.idb.messagemq.MessagemqApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-07-29 17:05:58.081  INFO 28053 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-29 17:05:58.082  INFO 28053 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-29 17:05:58.082  INFO 28053 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-07-29 17:05:58.087  INFO 28053 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2022-07-29 17:05:58.087  INFO 28053 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 117 ms
+2022-07-29 17:05:58.211  INFO 28053 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-29 17:05:58.215  INFO 28053 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-29 17:05:58.219  INFO 28053 --- [restartedMain] com.idb.messagemq.MessagemqApplication   : Started MessagemqApplication in 5.264 seconds (JVM running for 4430.232)
+2022-07-29 17:05:58.220  INFO 28053 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-07-29 17:08:27.933  INFO 28053 --- [restartedMain] com.idb.messagemq.MessagemqApplication   : Starting MessagemqApplication using Java 18.0.1 on Dinh-Phus-MacBook-Pro-16.local with PID 28053 (/Users/dinhphu/tmp/thtruemilk/spring-src/messagemq/target/classes started by dinhphu in /Users/dinhphu/tmp/thtruemilk/spring-src/messagemq)
+2022-07-29 17:08:27.934  INFO 28053 --- [restartedMain] com.idb.messagemq.MessagemqApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-07-29 17:08:28.048  INFO 28053 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-29 17:08:28.048  INFO 28053 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-29 17:08:28.048  INFO 28053 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-07-29 17:08:28.053  INFO 28053 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2022-07-29 17:08:28.053  INFO 28053 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 118 ms
+2022-07-29 17:08:28.161  INFO 28053 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-29 17:08:28.165  INFO 28053 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-29 17:08:28.168  INFO 28053 --- [restartedMain] com.idb.messagemq.MessagemqApplication   : Started MessagemqApplication in 5.247 seconds (JVM running for 4580.175)
+2022-07-29 17:08:28.169  INFO 28053 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-07-29 17:08:36.675  INFO 28053 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-29 17:08:36.675  INFO 28053 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-29 17:08:36.676  INFO 28053 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-07-29 17:08:36.961  INFO 28053 --- [http-nio-8080-exec-3] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 44 ms
+2022-07-29 17:08:45.149  INFO 28053 --- [http-nio-8080-exec-4] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [103.146.21.146:5672]
+2022-07-29 17:08:45.172  INFO 28053 --- [http-nio-8080-exec-4] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#30a673f5:0/SimpleConnection@7266b598 [delegate=amqp://admin@103.146.21.146:5672/, localPort= 57621]
+2022-07-29 17:08:45.173  INFO 28053 --- [http-nio-8080-exec-4] o.s.amqp.rabbit.core.RabbitAdmin         : Auto-declaring a non-durable, auto-delete, or exclusive Queue (idb.myqueue) durable:false, auto-delete:false, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2022-07-29 17:09:39.239 ERROR 28053 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException: Cannot invoke "com.idb.messagemq.Models.NotificationRabbitMQModel.getZaloID()" because "message" is null] with root cause
+
+java.lang.NullPointerException: Cannot invoke "com.idb.messagemq.Models.NotificationRabbitMQModel.getZaloID()" because "message" is null
+	at com.idb.messagemq.Utils.ZaloNotificationSender.SendMessageZaloNotification(ZaloNotificationSender.java:28) ~[classes/:na]
+	at com.idb.messagemq.Controllers.TestController.sendZaloMessagesFromRabbitMQ(TestController.java:57) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-5.3.22.jar:5.3.22]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150) ~[spring-web-5.3.22.jar:5.3.22]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-5.3.22.jar:5.3.22]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.3.22.jar:5.3.22]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.22.jar:5.3.22]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.22.jar:5.3.22]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1070) ~[spring-webmvc-5.3.22.jar:5.3.22]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963) ~[spring-webmvc-5.3.22.jar:5.3.22]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.22.jar:5.3.22]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.3.22.jar:5.3.22]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655) ~[tomcat-embed-core-9.0.65.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.22.jar:5.3.22]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) ~[tomcat-embed-core-9.0.65.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.22.jar:5.3.22]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.22.jar:5.3.22]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.22.jar:5.3.22]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.22.jar:5.3.22]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.22.jar:5.3.22]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.22.jar:5.3.22]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2022-07-29 17:12:31.723 ERROR 28053 --- [http-nio-8080-exec-4] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException: Cannot invoke "org.springframework.amqp.core.Message.getBody()" because the return value of "org.springframework.amqp.core.AmqpTemplate.receive(String)" is null] with root cause
+
+java.lang.NullPointerException: Cannot invoke "org.springframework.amqp.core.Message.getBody()" because the return value of "org.springframework.amqp.core.AmqpTemplate.receive(String)" is null
+	at com.idb.messagemq.Services.RabbitMQSender.receive(RabbitMQSender.java:45) ~[classes/:na]
+	at com.idb.messagemq.Controllers.RabbitMQWebController.receive(RabbitMQWebController.java:52) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-5.3.22.jar:5.3.22]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150) ~[spring-web-5.3.22.jar:5.3.22]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-5.3.22.jar:5.3.22]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.3.22.jar:5.3.22]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.22.jar:5.3.22]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.22.jar:5.3.22]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1070) ~[spring-webmvc-5.3.22.jar:5.3.22]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963) ~[spring-webmvc-5.3.22.jar:5.3.22]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.22.jar:5.3.22]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.3.22.jar:5.3.22]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655) ~[tomcat-embed-core-9.0.65.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.22.jar:5.3.22]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) ~[tomcat-embed-core-9.0.65.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.22.jar:5.3.22]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.22.jar:5.3.22]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.22.jar:5.3.22]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.22.jar:5.3.22]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.22.jar:5.3.22]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.22.jar:5.3.22]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2022-07-29 17:14:57.878  INFO 28053 --- [restartedMain] com.idb.messagemq.MessagemqApplication   : Starting MessagemqApplication using Java 18.0.1 on Dinh-Phus-MacBook-Pro-16.local with PID 28053 (/Users/dinhphu/tmp/thtruemilk/spring-src/messagemq/target/classes started by dinhphu in /Users/dinhphu/tmp/thtruemilk/spring-src/messagemq)
+2022-07-29 17:14:57.879  INFO 28053 --- [restartedMain] com.idb.messagemq.MessagemqApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-07-29 17:14:57.994  INFO 28053 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-29 17:14:57.994  INFO 28053 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-29 17:14:57.995  INFO 28053 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-07-29 17:14:57.999  INFO 28053 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2022-07-29 17:14:57.999  INFO 28053 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 119 ms
+2022-07-29 17:14:58.166  INFO 28053 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-29 17:14:58.173  INFO 28053 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-29 17:14:58.178  INFO 28053 --- [restartedMain] com.idb.messagemq.MessagemqApplication   : Started MessagemqApplication in 5.314 seconds (JVM running for 4970.181)
+2022-07-29 17:14:58.180  INFO 28053 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-07-29 17:15:08.065  INFO 28053 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-29 17:15:08.065  INFO 28053 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-29 17:15:08.065  INFO 28053 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2022-07-29 17:15:08.066  INFO 28053 --- [http-nio-8080-exec-1] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [103.146.21.146:5672]
+2022-07-29 17:15:08.090  INFO 28053 --- [http-nio-8080-exec-1] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#5af846e:0/SimpleConnection@4da1314a [delegate=amqp://admin@103.146.21.146:5672/, localPort= 57681]
+2022-07-29 17:15:08.091  INFO 28053 --- [http-nio-8080-exec-1] o.s.amqp.rabbit.core.RabbitAdmin         : Auto-declaring a non-durable, auto-delete, or exclusive Queue (idb.myqueue) durable:false, auto-delete:false, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2022-07-29 17:16:23.307  INFO 28053 --- [restartedMain] com.idb.messagemq.MessagemqApplication   : Starting MessagemqApplication using Java 18.0.1 on Dinh-Phus-MacBook-Pro-16.local with PID 28053 (/Users/dinhphu/tmp/thtruemilk/spring-src/messagemq/target/classes started by dinhphu in /Users/dinhphu/tmp/thtruemilk/spring-src/messagemq)
+2022-07-29 17:16:23.308  INFO 28053 --- [restartedMain] com.idb.messagemq.MessagemqApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-07-29 17:16:23.436  INFO 28053 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-29 17:16:23.436  INFO 28053 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-29 17:16:23.436  INFO 28053 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-07-29 17:16:23.442  INFO 28053 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2022-07-29 17:16:23.442  INFO 28053 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 133 ms
+2022-07-29 17:16:23.562  INFO 28053 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-29 17:16:23.567  INFO 28053 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-29 17:16:23.570  INFO 28053 --- [restartedMain] com.idb.messagemq.MessagemqApplication   : Started MessagemqApplication in 5.277 seconds (JVM running for 5055.572)
+2022-07-29 17:16:23.572  INFO 28053 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-07-29 17:16:43.918  INFO 28053 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-29 17:16:43.919  INFO 28053 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-29 17:16:43.919  INFO 28053 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2022-07-29 17:16:43.920  INFO 28053 --- [http-nio-8080-exec-1] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [103.146.21.146:5672]
+2022-07-29 17:16:43.944  INFO 28053 --- [http-nio-8080-exec-1] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#71a9e459:0/SimpleConnection@5158e468 [delegate=amqp://admin@103.146.21.146:5672/, localPort= 57707]
+2022-07-29 17:16:43.945  INFO 28053 --- [http-nio-8080-exec-1] o.s.amqp.rabbit.core.RabbitAdmin         : Auto-declaring a non-durable, auto-delete, or exclusive Queue (idb.myqueue) durable:false, auto-delete:false, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2022-07-29 17:17:37.595  INFO 28053 --- [restartedMain] com.idb.messagemq.MessagemqApplication   : Starting MessagemqApplication using Java 18.0.1 on Dinh-Phus-MacBook-Pro-16.local with PID 28053 (/Users/dinhphu/tmp/thtruemilk/spring-src/messagemq/target/classes started by dinhphu in /Users/dinhphu/tmp/thtruemilk/spring-src/messagemq)
+2022-07-29 17:17:37.596  INFO 28053 --- [restartedMain] com.idb.messagemq.MessagemqApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-07-29 17:17:37.711  INFO 28053 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-29 17:17:37.711  INFO 28053 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-29 17:17:37.711  INFO 28053 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-07-29 17:17:37.716  INFO 28053 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2022-07-29 17:17:37.716  INFO 28053 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 119 ms
+2022-07-29 17:17:37.849  INFO 28053 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-29 17:17:37.856  INFO 28053 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-29 17:17:37.860  INFO 28053 --- [restartedMain] com.idb.messagemq.MessagemqApplication   : Started MessagemqApplication in 5.279 seconds (JVM running for 5129.861)
+2022-07-29 17:17:37.861  INFO 28053 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-07-29 17:18:33.725  INFO 28053 --- [restartedMain] com.idb.messagemq.MessagemqApplication   : Starting MessagemqApplication using Java 18.0.1 on Dinh-Phus-MacBook-Pro-16.local with PID 28053 (/Users/dinhphu/tmp/thtruemilk/spring-src/messagemq/target/classes started by dinhphu in /Users/dinhphu/tmp/thtruemilk/spring-src/messagemq)
+2022-07-29 17:18:33.725  INFO 28053 --- [restartedMain] com.idb.messagemq.MessagemqApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-07-29 17:18:33.906  INFO 28053 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-29 17:18:33.906  INFO 28053 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-29 17:18:33.907  INFO 28053 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-07-29 17:18:33.915  INFO 28053 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2022-07-29 17:18:33.915  INFO 28053 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 188 ms
+2022-07-29 17:18:34.057  INFO 28053 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-29 17:18:34.062  INFO 28053 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-29 17:18:34.066  INFO 28053 --- [restartedMain] com.idb.messagemq.MessagemqApplication   : Started MessagemqApplication in 5.353 seconds (JVM running for 5186.066)
+2022-07-29 17:18:34.067  INFO 28053 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-07-29 17:18:47.797  INFO 28053 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-29 17:18:47.797  INFO 28053 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-29 17:18:47.797  INFO 28053 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2022-07-29 17:18:47.799  INFO 28053 --- [http-nio-8080-exec-1] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [103.146.21.146:5672]
+2022-07-29 17:18:47.829  INFO 28053 --- [http-nio-8080-exec-1] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#6c056381:0/SimpleConnection@1b31768e [delegate=amqp://admin@103.146.21.146:5672/, localPort= 57723]
+2022-07-29 17:18:47.829  INFO 28053 --- [http-nio-8080-exec-1] o.s.amqp.rabbit.core.RabbitAdmin         : Auto-declaring a non-durable, auto-delete, or exclusive Queue (idb.myqueue) durable:false, auto-delete:false, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2022-07-29 17:21:54.289 ERROR 28053 --- [http-nio-8080-exec-7] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.ClassCastException: class com.idb.messagemq.Models.NotificationRabbitMQModel cannot be cast to class com.idb.messagemq.Models.Employee (com.idb.messagemq.Models.NotificationRabbitMQModel and com.idb.messagemq.Models.Employee are in unnamed module of loader org.springframework.boot.devtools.restart.classloader.RestartClassLoader @7c75dded)] with root cause
+
+java.lang.ClassCastException: class com.idb.messagemq.Models.NotificationRabbitMQModel cannot be cast to class com.idb.messagemq.Models.Employee (com.idb.messagemq.Models.NotificationRabbitMQModel and com.idb.messagemq.Models.Employee are in unnamed module of loader org.springframework.boot.devtools.restart.classloader.RestartClassLoader @7c75dded)
+	at com.idb.messagemq.Services.RabbitMQSender.receiveAndConvertToPojo(RabbitMQSender.java:65) ~[classes/:na]
+	at com.idb.messagemq.Controllers.RabbitMQWebController.receiveAndConvert(RabbitMQWebController.java:64) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-5.3.22.jar:5.3.22]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150) ~[spring-web-5.3.22.jar:5.3.22]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-5.3.22.jar:5.3.22]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.3.22.jar:5.3.22]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.22.jar:5.3.22]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.22.jar:5.3.22]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1070) ~[spring-webmvc-5.3.22.jar:5.3.22]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963) ~[spring-webmvc-5.3.22.jar:5.3.22]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.22.jar:5.3.22]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.3.22.jar:5.3.22]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655) ~[tomcat-embed-core-9.0.65.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.22.jar:5.3.22]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) ~[tomcat-embed-core-9.0.65.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.22.jar:5.3.22]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.22.jar:5.3.22]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.22.jar:5.3.22]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.22.jar:5.3.22]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.22.jar:5.3.22]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.22.jar:5.3.22]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2022-07-29 17:22:56.803  INFO 28053 --- [restartedMain] com.idb.messagemq.MessagemqApplication   : Starting MessagemqApplication using Java 18.0.1 on Dinh-Phus-MacBook-Pro-16.local with PID 28053 (/Users/dinhphu/tmp/thtruemilk/spring-src/messagemq/target/classes started by dinhphu in /Users/dinhphu/tmp/thtruemilk/spring-src/messagemq)
+2022-07-29 17:22:56.803  INFO 28053 --- [restartedMain] com.idb.messagemq.MessagemqApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-07-29 17:22:56.918  INFO 28053 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-29 17:22:56.919  INFO 28053 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-29 17:22:56.919  INFO 28053 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-07-29 17:22:56.925  INFO 28053 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2022-07-29 17:22:56.925  INFO 28053 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 121 ms
+2022-07-29 17:22:57.031  INFO 28053 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-29 17:22:57.035  INFO 28053 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-29 17:22:57.039  INFO 28053 --- [restartedMain] com.idb.messagemq.MessagemqApplication   : Started MessagemqApplication in 5.247 seconds (JVM running for 5449.036)
+2022-07-29 17:22:57.040  INFO 28053 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-07-29 17:25:08.557  INFO 28053 --- [restartedMain] com.idb.messagemq.MessagemqApplication   : Starting MessagemqApplication using Java 18.0.1 on Dinh-Phus-MacBook-Pro-16.local with PID 28053 (/Users/dinhphu/tmp/thtruemilk/spring-src/messagemq/target/classes started by dinhphu in /Users/dinhphu/tmp/thtruemilk/spring-src/messagemq)
+2022-07-29 17:25:08.557  INFO 28053 --- [restartedMain] com.idb.messagemq.MessagemqApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-07-29 17:25:08.679  INFO 28053 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-29 17:25:08.679  INFO 28053 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-29 17:25:08.679  INFO 28053 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-07-29 17:25:08.684  INFO 28053 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2022-07-29 17:25:08.684  INFO 28053 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 125 ms
+2022-07-29 17:25:08.784  INFO 28053 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-29 17:25:08.789  INFO 28053 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-29 17:25:08.792  INFO 28053 --- [restartedMain] com.idb.messagemq.MessagemqApplication   : Started MessagemqApplication in 5.249 seconds (JVM running for 5580.787)
+2022-07-29 17:25:08.793  INFO 28053 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-07-29 17:44:29.473  INFO 28053 --- [restartedMain] com.idb.messagemq.MessagemqApplication   : Starting MessagemqApplication using Java 18.0.1 on Dinh-Phus-MacBook-Pro-16.local with PID 28053 (/Users/dinhphu/tmp/thtruemilk/spring-src/messagemq/target/classes started by dinhphu in /Users/dinhphu/tmp/thtruemilk/spring-src/messagemq)
+2022-07-29 17:44:29.474  INFO 28053 --- [restartedMain] com.idb.messagemq.MessagemqApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-07-29 17:44:29.647  INFO 28053 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-29 17:44:29.647  INFO 28053 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-29 17:44:29.647  INFO 28053 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-07-29 17:44:29.655  INFO 28053 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2022-07-29 17:44:29.655  INFO 28053 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 179 ms
+2022-07-29 17:44:29.855  INFO 28053 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-29 17:44:29.860  INFO 28053 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-29 17:44:29.864  INFO 28053 --- [restartedMain] com.idb.messagemq.MessagemqApplication   : Started MessagemqApplication in 5.436 seconds (JVM running for 6741.919)
+2022-07-29 17:44:29.865  INFO 28053 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-07-29 17:44:38.232  INFO 28053 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-29 17:44:38.232  INFO 28053 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-29 17:44:38.233  INFO 28053 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-07-29 17:44:38.233  INFO 28053 --- [http-nio-8080-exec-1] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [103.146.21.146:5672]
+2022-07-29 17:44:38.279  INFO 28053 --- [http-nio-8080-exec-1] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#7dcb69fd:0/SimpleConnection@249faa3 [delegate=amqp://admin@103.146.21.146:5672/, localPort= 57968]
+2022-07-29 17:44:38.281  INFO 28053 --- [http-nio-8080-exec-1] o.s.amqp.rabbit.core.RabbitAdmin         : Auto-declaring a non-durable, auto-delete, or exclusive Queue (idb.myqueue) durable:false, auto-delete:false, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2022-07-29 17:47:27.763  INFO 28053 --- [restartedMain] com.idb.messagemq.MessagemqApplication   : Starting MessagemqApplication using Java 18.0.1 on Dinh-Phus-MacBook-Pro-16.local with PID 28053 (/Users/dinhphu/tmp/thtruemilk/spring-src/messagemq/target/classes started by dinhphu in /Users/dinhphu/tmp/thtruemilk/spring-src/messagemq)
+2022-07-29 17:47:27.763  INFO 28053 --- [restartedMain] com.idb.messagemq.MessagemqApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-07-29 17:47:27.872  INFO 28053 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-29 17:47:27.872  INFO 28053 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-29 17:47:27.872  INFO 28053 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-07-29 17:47:27.877  INFO 28053 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2022-07-29 17:47:27.877  INFO 28053 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 113 ms
+2022-07-29 17:47:27.988  INFO 28053 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-29 17:47:27.992  INFO 28053 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-29 17:47:27.995  INFO 28053 --- [restartedMain] com.idb.messagemq.MessagemqApplication   : Started MessagemqApplication in 5.243 seconds (JVM running for 6920.051)
+2022-07-29 17:47:27.996  INFO 28053 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-07-29 17:55:17.423  INFO 28053 --- [restartedMain] com.idb.messagemq.MessagemqApplication   : Starting MessagemqApplication using Java 18.0.1 on Dinh-Phus-MacBook-Pro-16.local with PID 28053 (/Users/dinhphu/tmp/thtruemilk/spring-src/messagemq/target/classes started by dinhphu in /Users/dinhphu/tmp/thtruemilk/spring-src/messagemq)
+2022-07-29 17:55:17.424  INFO 28053 --- [restartedMain] com.idb.messagemq.MessagemqApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-07-29 17:55:17.577  INFO 28053 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-29 17:55:17.577  INFO 28053 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-29 17:55:17.577  INFO 28053 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-07-29 17:55:17.582  INFO 28053 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2022-07-29 17:55:17.582  INFO 28053 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 156 ms
+2022-07-29 17:55:17.700  INFO 28053 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-29 17:55:17.705  INFO 28053 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-29 17:55:17.708  INFO 28053 --- [restartedMain] com.idb.messagemq.MessagemqApplication   : Started MessagemqApplication in 5.306 seconds (JVM running for 7389.776)
+2022-07-29 17:55:17.709  INFO 28053 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-07-29 17:56:31.799  INFO 28053 --- [restartedMain] com.idb.messagemq.MessagemqApplication   : Starting MessagemqApplication using Java 18.0.1 on Dinh-Phus-MacBook-Pro-16.local with PID 28053 (/Users/dinhphu/tmp/thtruemilk/spring-src/messagemq/target/classes started by dinhphu in /Users/dinhphu/tmp/thtruemilk/spring-src/messagemq)
+2022-07-29 17:56:31.799  INFO 28053 --- [restartedMain] com.idb.messagemq.MessagemqApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-07-29 17:56:31.926  INFO 28053 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-29 17:56:31.927  INFO 28053 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-29 17:56:31.927  INFO 28053 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-07-29 17:56:31.932  INFO 28053 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2022-07-29 17:56:31.932  INFO 28053 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 132 ms
+2022-07-29 17:56:32.062  INFO 28053 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-29 17:56:32.066  INFO 28053 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-29 17:56:32.069  INFO 28053 --- [restartedMain] com.idb.messagemq.MessagemqApplication   : Started MessagemqApplication in 5.285 seconds (JVM running for 7464.138)
+2022-07-29 17:56:32.070  INFO 28053 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-07-29 17:58:38.574  INFO 28053 --- [restartedMain] com.idb.messagemq.MessagemqApplication   : Starting MessagemqApplication using Java 18.0.1 on Dinh-Phus-MacBook-Pro-16.local with PID 28053 (/Users/dinhphu/tmp/thtruemilk/spring-src/messagemq/target/classes started by dinhphu in /Users/dinhphu/tmp/thtruemilk/spring-src/messagemq)
+2022-07-29 17:58:38.574  INFO 28053 --- [restartedMain] com.idb.messagemq.MessagemqApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-07-29 17:58:38.690  INFO 28053 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-29 17:58:38.690  INFO 28053 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-29 17:58:38.690  INFO 28053 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-07-29 17:58:38.695  INFO 28053 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2022-07-29 17:58:38.695  INFO 28053 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 119 ms
+2022-07-29 17:58:38.812  INFO 28053 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-29 17:58:38.816  INFO 28053 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-29 17:58:38.819  INFO 28053 --- [restartedMain] com.idb.messagemq.MessagemqApplication   : Started MessagemqApplication in 5.258 seconds (JVM running for 7590.888)
+2022-07-29 17:58:38.820  INFO 28053 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-07-29 17:59:16.946  INFO 28053 --- [restartedMain] com.idb.messagemq.MessagemqApplication   : Starting MessagemqApplication using Java 18.0.1 on Dinh-Phus-MacBook-Pro-16.local with PID 28053 (/Users/dinhphu/tmp/thtruemilk/spring-src/messagemq/target/classes started by dinhphu in /Users/dinhphu/tmp/thtruemilk/spring-src/messagemq)
+2022-07-29 17:59:16.946  INFO 28053 --- [restartedMain] com.idb.messagemq.MessagemqApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-07-29 17:59:17.052  INFO 28053 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-29 17:59:17.052  INFO 28053 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-29 17:59:17.052  INFO 28053 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-07-29 17:59:17.056  INFO 28053 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2022-07-29 17:59:17.056  INFO 28053 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 109 ms
+2022-07-29 17:59:17.162  INFO 28053 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-29 17:59:17.167  INFO 28053 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-29 17:59:17.170  INFO 28053 --- [restartedMain] com.idb.messagemq.MessagemqApplication   : Started MessagemqApplication in 5.237 seconds (JVM running for 7629.239)
+2022-07-29 17:59:17.171  INFO 28053 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-07-29 18:01:55.091  INFO 28053 --- [restartedMain] com.idb.messagemq.MessagemqApplication   : Starting MessagemqApplication using Java 18.0.1 on Dinh-Phus-MacBook-Pro-16.local with PID 28053 (/Users/dinhphu/tmp/thtruemilk/spring-src/messagemq/target/classes started by dinhphu in /Users/dinhphu/tmp/thtruemilk/spring-src/messagemq)
+2022-07-29 18:01:55.093  INFO 28053 --- [restartedMain] com.idb.messagemq.MessagemqApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-07-29 18:01:55.247  INFO 28053 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-29 18:01:55.248  INFO 28053 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-29 18:01:55.248  INFO 28053 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-07-29 18:01:55.253  INFO 28053 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2022-07-29 18:01:55.253  INFO 28053 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 157 ms
+2022-07-29 18:01:55.277  WARN 28053 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'zaloSendNotificationFromRabbitMQScheduler' defined in file [/Users/dinhphu/tmp/thtruemilk/spring-src/messagemq/target/classes/com/idb/messagemq/Scheduler/ZaloSendNotificationFromRabbitMQScheduler.class]: Initialization of bean failed; nested exception is java.lang.IllegalStateException: Encountered invalid @Scheduled method 'SendZaloMessage': Cron expression must consist of 6 fields (found 5 in "* * * * *")
+2022-07-29 18:01:55.278  INFO 28053 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-07-29 18:01:55.285  INFO 28053 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-07-29 18:01:55.289 ERROR 28053 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'zaloSendNotificationFromRabbitMQScheduler' defined in file [/Users/dinhphu/tmp/thtruemilk/spring-src/messagemq/target/classes/com/idb/messagemq/Scheduler/ZaloSendNotificationFromRabbitMQScheduler.class]: Initialization of bean failed; nested exception is java.lang.IllegalStateException: Encountered invalid @Scheduled method 'SendZaloMessage': Cron expression must consist of 6 fields (found 5 in "* * * * *")
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:628) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.22.jar:5.3.22]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.22.jar:5.3.22]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147) ~[spring-boot-2.7.2.jar:2.7.2]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734) ~[spring-boot-2.7.2.jar:2.7.2]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408) ~[spring-boot-2.7.2.jar:2.7.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308) ~[spring-boot-2.7.2.jar:2.7.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306) ~[spring-boot-2.7.2.jar:2.7.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295) ~[spring-boot-2.7.2.jar:2.7.2]
+	at com.idb.messagemq.MessagemqApplication.main(MessagemqApplication.java:12) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-2.7.2.jar:2.7.2]
+Caused by: java.lang.IllegalStateException: Encountered invalid @Scheduled method 'SendZaloMessage': Cron expression must consist of 6 fields (found 5 in "* * * * *")
+	at org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor.processScheduled(ScheduledAnnotationBeanPostProcessor.java:518) ~[spring-context-5.3.22.jar:5.3.22]
+	at org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor.lambda$null$1(ScheduledAnnotationBeanPostProcessor.java:380) ~[spring-context-5.3.22.jar:5.3.22]
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75) ~[na:na]
+	at org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor.lambda$postProcessAfterInitialization$2(ScheduledAnnotationBeanPostProcessor.java:380) ~[spring-context-5.3.22.jar:5.3.22]
+	at java.base/java.util.LinkedHashMap.forEach(LinkedHashMap.java:721) ~[na:na]
+	at org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor.postProcessAfterInitialization(ScheduledAnnotationBeanPostProcessor.java:379) ~[spring-context-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsAfterInitialization(AbstractAutowireCapableBeanFactory.java:455) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1808) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620) ~[spring-beans-5.3.22.jar:5.3.22]
+	... 18 common frames omitted
+
+2022-07-29 18:06:41.106  INFO 28053 --- [restartedMain] com.idb.messagemq.MessagemqApplication   : Starting MessagemqApplication using Java 18.0.1 on Dinh-Phus-MacBook-Pro-16.local with PID 28053 (/Users/dinhphu/tmp/thtruemilk/spring-src/messagemq/target/classes started by dinhphu in /Users/dinhphu/tmp/thtruemilk/spring-src/messagemq)
+2022-07-29 18:06:41.107  INFO 28053 --- [restartedMain] com.idb.messagemq.MessagemqApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-07-29 18:06:41.229  INFO 28053 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-29 18:06:41.229  INFO 28053 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-29 18:06:41.229  INFO 28053 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-07-29 18:06:41.235  INFO 28053 --- [restartedMain] o.a.c.c.C.[Tomcat-3].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2022-07-29 18:06:41.235  INFO 28053 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 127 ms
+2022-07-29 18:06:41.350  INFO 28053 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-29 18:06:41.355  INFO 28053 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-29 18:06:41.359  INFO 28053 --- [restartedMain] com.idb.messagemq.MessagemqApplication   : Started MessagemqApplication in 5.264 seconds (JVM running for 8073.43)
+2022-07-29 18:06:41.359  INFO 28053 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-07-29 18:07:00.005  INFO 28053 --- [scheduling-1] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [103.146.21.146:5672]
+2022-07-29 18:07:00.029  INFO 28053 --- [scheduling-1] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#385cabcb:0/SimpleConnection@6abb774b [delegate=amqp://admin@103.146.21.146:5672/, localPort= 58332]
+2022-07-29 18:07:00.029  INFO 28053 --- [scheduling-1] o.s.amqp.rabbit.core.RabbitAdmin         : Auto-declaring a non-durable, auto-delete, or exclusive Queue (idb.myqueue) durable:false, auto-delete:false, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2022-07-29 18:07:00.056  INFO 28053 --- [scheduling-1] aloSendNotificationFromRabbitMQScheduler : There is no message to send in queue!
+2022-07-29 18:07:22.794  INFO 28053 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat-3].[localhost].[/]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-29 18:07:22.794  INFO 28053 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-29 18:07:22.795  INFO 28053 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2022-07-29 18:08:00.011  INFO 28053 --- [scheduling-1] aloSendNotificationFromRabbitMQScheduler : There is no message to send in queue!
+2022-07-29 18:09:00.008  INFO 28053 --- [scheduling-1] aloSendNotificationFromRabbitMQScheduler : There is no message to send in queue!
+2022-07-29 18:09:24.830  INFO 28053 --- [http-nio-8080-exec-1] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 84 ms
+2022-07-29 18:10:00.582  INFO 28053 --- [restartedMain] com.idb.messagemq.MessagemqApplication   : Starting MessagemqApplication using Java 18.0.1 on Dinh-Phus-MacBook-Pro-16.local with PID 28053 (/Users/dinhphu/tmp/thtruemilk/spring-src/messagemq/target/classes started by dinhphu in /Users/dinhphu/tmp/thtruemilk/spring-src/messagemq)
+2022-07-29 18:10:00.582  INFO 28053 --- [restartedMain] com.idb.messagemq.MessagemqApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-07-29 18:10:00.703  INFO 28053 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-29 18:10:00.703  INFO 28053 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-29 18:10:00.703  INFO 28053 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-07-29 18:10:00.709  INFO 28053 --- [restartedMain] o.a.c.c.C.[Tomcat-3].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2022-07-29 18:10:00.709  INFO 28053 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 126 ms
+2022-07-29 18:10:00.861  INFO 28053 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-29 18:10:00.866  INFO 28053 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-29 18:10:00.870  INFO 28053 --- [restartedMain] com.idb.messagemq.MessagemqApplication   : Started MessagemqApplication in 5.301 seconds (JVM running for 8272.942)
+2022-07-29 18:10:00.871  INFO 28053 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-07-29 18:10:03.090  INFO 28053 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat-3].[localhost].[/]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-29 18:10:03.090  INFO 28053 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-29 18:10:03.090  INFO 28053 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2022-07-29 18:10:03.237  INFO 28053 --- [http-nio-8080-exec-2] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 54 ms
+2022-07-29 18:10:32.409  INFO 28053 --- [http-nio-8080-exec-3] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [103.146.21.146:5672]
+2022-07-29 18:10:32.433  INFO 28053 --- [http-nio-8080-exec-3] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#71d0f977:0/SimpleConnection@27523ebf [delegate=amqp://admin@103.146.21.146:5672/, localPort= 58407]
+2022-07-29 18:10:32.434  INFO 28053 --- [http-nio-8080-exec-3] o.s.amqp.rabbit.core.RabbitAdmin         : Auto-declaring a non-durable, auto-delete, or exclusive Queue (idb.myqueue) durable:false, auto-delete:false, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2022-07-29 18:11:00.175  INFO 28053 --- [scheduling-1] aloSendNotificationFromRabbitMQScheduler : Send zalo message successfully!
